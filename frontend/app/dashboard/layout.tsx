@@ -1,9 +1,9 @@
 'use client';
 
 import { ReactNode, useEffect, useState } from 'react';
-import { useAuth } from '@/context/AuthContext';
+import { useAuth } from '../../context/AuthContext';
 import { useRouter } from 'next/navigation';
-import Navbar from '@/components/layout/Navbar';
+import Navbar from '../../components/layout/Navbar';
 
 const dashboardNavItems = [
   { name: 'Home', href: '/' },
